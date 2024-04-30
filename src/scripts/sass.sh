@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# This script compiles all the .scss files in the assets/scss directory
-# and outputs the compiled .css files to the assets/css directory.
+# This script compiles all the .scss files in the src/scss directory
+# and outputs the compiled .css files to the src/css directory.
 
 # The script requires the sass command line tool to be installed.
 # The following command will verify if it is installed, and if not, install it.
@@ -15,4 +15,4 @@ fi
 
 # Compile the .scss files
 
-sass assets/scss:assets/css
+sass src/styles/scss:src/styles
